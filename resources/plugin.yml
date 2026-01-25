@@ -3,7 +3,6 @@ version: 1.0.0
 name: Ducky
 author: SpicyMike
 api-version: 1.17
-folia-supported: true
 commands:
   ducky:
     description: Update DuckDNS IP address
