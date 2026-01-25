@@ -31,7 +31,6 @@ public class Ducky extends JavaPlugin {
         int intervalTicks = 20 * 60 * intervalMinutes;
 
         Bukkit.getScheduler().runTaskTimerAsynchronously(this, this::updateDuckDNS, intervalTicks, intervalTicks);
-
         Bukkit.getScheduler().runTaskAsynchronously(this, this::updateDuckDNS);
 
         getLogger().info("DuckDNSUpdater enabled. This plugin is NOT affiliated with DuckDNS. Please read README.md");
