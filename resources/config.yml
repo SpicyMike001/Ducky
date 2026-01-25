@@ -1,0 +1,4 @@
+duckdns:
+  domain: "yourdomain"
+  token: "your-duckdns-token"
+  update-interval-minutes: 5
