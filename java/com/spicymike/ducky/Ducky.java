@@ -51,7 +51,7 @@ public class Ducky extends JavaPlugin {
                 byte[] response = in.readAllBytes();
                 String result = new String(response);
                 if (result.contains("OK")) {
-                    getLogger().info("DuckDNS updated successfully.");
+                    getLogger().info("DuckDNS update request accepted.");
                 } else {
                     getLogger().warning("DuckDNS update failed: " + result);
                 }
