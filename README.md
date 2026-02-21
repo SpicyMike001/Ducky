@@ -1,4 +1,4 @@
-[Modrinth](#) | [CurseForge](#)
+[Modrinth](https://modrinth.com/plugin/ducky-spm)
 
 # Ducky
 
